@@ -1,73 +1,159 @@
-# Welcome to your Lovable project
+# 🚀 Yashika Saini - Portfolio Website
 
-## Project info
+A modern, responsive portfolio website showcasing my skills, projects, and professional experience as a Full-Stack Developer.
 
-**URL**: https://lovable.dev/projects/206044c7-f0ac-4ad8-b6b7-ab13a4a485d7
+## ✨ Features
 
-## How can I edit this code?
+- **Modern Design**: Clean, professional design with glass-morphism effects
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Interactive Animations**: Smooth GSAP animations and hover effects
+- **Contact Form**: Functional contact form with EmailJS integration
+- **Project Showcase**: Highlighted portfolio projects with live demos
+- **Dark/Light Theme**: Toggle between dark and light themes
+- **Download Resume**: Direct download of resume from the navigation
 
-There are several ways of editing your application.
+## 🛠️ Technologies Used
 
-**Use Lovable**
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS + Custom CSS
+- **Animations**: GSAP (GreenSock)
+- **UI Components**: shadcn/ui
+- **Email Service**: EmailJS
+- **Deployment**: Vercel (Ready)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/206044c7-f0ac-4ad8-b6b7-ab13a4a485d7) and start prompting.
+## 📱 Sections
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Hero Section**: Introduction with animated text and CTA
+2. **About Section**: Personal information and skills showcase
+3. **Why Work With Me**: Professional highlights and expertise
+4. **Projects Section**: Featured projects with thumbnails and links
+5. **Contact Section**: Contact form and social media links
+6. **Navigation**: Smooth scrolling navigation with theme toggle
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd neo-glow-craft
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📧 EmailJS Setup
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The contact form uses EmailJS for sending emails. To configure:
 
-**Use GitHub Codespaces**
+1. Sign up at [EmailJS.com](https://www.emailjs.com/)
+2. Create an email service (Gmail, Outlook, etc.)
+3. Create an email template
+4. Update the following values in `src/components/ContactSection.tsx`:
+   - `YOUR_SERVICE_ID`
+   - `YOUR_TEMPLATE_ID`
+   - `YOUR_PUBLIC_KEY`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Deployment
 
-## What technologies are used for this project?
+### Deploy to Vercel
 
-This project is built with:
+1. Push your code to GitHub
+2. Connect your repository to [Vercel](https://vercel.com)
+3. Deploy automatically
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Deploy to Other Platforms
 
-## How can I deploy this project?
+```bash
+# Build the project
+npm run build
 
-Simply open [Lovable](https://lovable.dev/projects/206044c7-f0ac-4ad8-b6b7-ab13a4a485d7) and click on Share -> Publish.
+# The dist folder contains your production build
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 📁 Project Structure
 
-Yes, you can!
+```
+neo-glow-craft/
+├── src/
+│   ├── components/          # React components
+│   │   ├── HeroSection.tsx
+│   │   ├── AboutSection.tsx
+│   │   ├── ProjectsSection.tsx
+│   │   ├── ContactSection.tsx
+│   │   └── Navigation.tsx
+│   ├── pages/              # Page components
+│   ├── assets/             # Images and static files
+│   └── main.tsx           # Entry point
+├── public/                 # Public assets
+│   ├── resume.png         # Resume file
+│   └── project-screenshots/
+├── tailwind.config.ts     # Tailwind configuration
+└── package.json           # Dependencies and scripts
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🎨 Customization
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Colors and Themes
+- Update color schemes in `tailwind.config.ts`
+- Modify CSS variables in `src/index.css`
+
+### Content
+- Update personal information in component files
+- Replace project images in the `public` folder
+- Modify the skills list in `AboutSection.tsx`
+
+### Styling
+- Customize glass-morphism effects
+- Adjust animations and transitions
+- Modify responsive breakpoints
+
+## 📱 Responsive Design
+
+- **Mobile First**: Optimized for mobile devices
+- **Tablet**: Responsive grid layouts
+- **Desktop**: Full-featured desktop experience
+- **Navigation**: Mobile-friendly navigation menu
+
+## 🔧 Available Scripts
+
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run preview      # Preview production build
+npm run lint         # Run ESLint
+```
+
+## 📞 Contact
+
+- **Email**: yashikasain9876@gmail.com
+- **Phone**: +91 9588525646
+- **Location**: India
+- **GitHub**: [@yaashi2004](https://github.com/yaashi2004)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Built with [React](https://reactjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- Animated with [GSAP](https://greensock.com/gsap/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+
+---
+
+**Made with ❤️ by Yashika Saini**

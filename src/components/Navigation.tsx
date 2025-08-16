@@ -103,7 +103,7 @@ const Navigation = () => {
             <button
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/YashikaResume.pdf';
+                link.href = '/my_resume.pdf';
                 link.download = 'Yashika_Saini_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();

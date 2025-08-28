@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { List, X, Sun, Moon, Download } from 'phosphor-react';
 import { gsap } from 'gsap';
+import { downloadResume } from '../utils/downloadUtils';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -101,14 +102,7 @@ const Navigation = () => {
 
             {/* Download Resume Button */}
             <button
-              onClick={() => {
-                const link = document.createElement('a');
-                link.href = '/my_resume.pdf';
-                link.download = 'Yashika_Saini_Resume.pdf';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-              }}
+              onClick={() => downloadResume()}
               className="flex items-center gap-2 px-4 py-2 rounded-lg glass-card hover:scale-105 transition-all duration-300 text-primary hover:text-glow border border-primary/30 hover:border-primary/60"
               aria-label="Download Resume"
             >
@@ -144,14 +138,7 @@ const Navigation = () => {
             
             {/* Download Resume Button in Mobile Menu */}
             <button
-              onClick={() => {
-                const link = document.createElement('a');
-                link.href = '/YashikaResume.pdf';
-                link.download = 'Yashika_Saini_Resume.pdf';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-              }}
+              onClick={() => downloadResume()}
               className="flex items-center gap-3 w-full text-left text-lg text-primary hover:text-glow transition-all duration-300 border-t border-glass-border/30 pt-4"
               style={{ animationDelay: '0.6s' }}
             >

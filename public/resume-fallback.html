@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Download - Yashika Saini</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #e2e8f0;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border-radius: 16px;
+            padding: 40px;
+            text-align: center;
+            max-width: 500px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        h1 {
+            color: #60a5fa;
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+        }
+        .instructions {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .instructions h3 {
+            color: #60a5fa;
+            margin-top: 0;
+        }
+        .instructions ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .instructions li {
+            margin: 8px 0;
+        }
+        .back-link {
+            color: #60a5fa;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📄 Resume Download</h1>
+        <p>If you're having trouble downloading the resume, try these alternatives:</p>
+        
+        <div class="instructions">
+            <h3>📱 Mobile Users:</h3>
+            <ol>
+                <li><strong>Direct Download:</strong> Tap the button below</li>
+                <li><strong>Open in Browser:</strong> View the PDF first, then save</li>
+                <li><strong>Long Press:</strong> Long press the download button and select "Save Link As"</li>
+            </ol>
+        </div>
+
+        <a href="/my_resume.pdf" class="download-btn" download="Yashika_Saini_Resume.pdf">
+            📥 Download Resume (PDF)
+        </a>
+        
+        <a href="/my_resume.pdf" class="download-btn" target="_blank">
+            👁️ View Resume in Browser
+        </a>
+
+        <div class="instructions">
+            <h3>🔧 Alternative Solutions:</h3>
+            <ol>
+                <li><strong>Use Desktop:</strong> Try downloading from a computer</li>
+                <li><strong>Different Browser:</strong> Switch to Chrome, Safari, or Firefox</li>
+                <li><strong>Clear Cache:</strong> Clear your browser cache and try again</li>
+            </ol>
+        </div>
+
+        <a href="/" class="back-link">← Back to Portfolio</a>
+    </div>
+</body>
+</html>

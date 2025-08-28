@@ -8,6 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    headers: {
+      // Ensure PDFs are served with correct MIME type
+      'Content-Type': 'application/pdf',
+    },
   },
   plugins: [
     react(),
@@ -19,4 +23,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // Add proper MIME type handling for static assets
+  assetsInclude: ['**/*.pdf'],
 }));

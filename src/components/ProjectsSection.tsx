@@ -24,7 +24,7 @@ const ProjectsSection = () => {
     "ESP32",
     "Arduino IDE",
   ],
-      image: "/Screenshot (510).png",
+      image: "/Screenshot (438).png",
       github: "https://github.com/yaashi2004/iot-room-occupancy-tracker",
       live: "https://github.com/yaashi2004/iot-room-occupancy-tracker"
     },
@@ -37,9 +37,9 @@ const ProjectsSection = () => {
     "LangChain",
     "Groq API",
     "Gmail API",],
-      image: "/Screenshot (511).png",
+      image: "/cold.jpeg",
       github: "https://github.com/yaashi2004/Cold-email-Generator",
-      live: "https://github.com/yaashi2004/Cold-email-Generator"
+      live: "https://cold-email-generator-w8co.onrender.com/"
     },
     {
       id: 3,

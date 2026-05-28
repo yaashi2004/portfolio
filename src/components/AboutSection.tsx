@@ -16,9 +16,7 @@ const AboutSection = () => {
     { name: 'React', icon: '⚛️' },
     { name: 'JavaScript', icon: '🟨' },
     { name: 'TypeScript', icon: '🔷' },
-    { name: 'Next.js', icon: '⚫' },
     { name: 'Node.js', icon: '🟢' },
-    { name: 'Java', icon: '☕' },
     { name: 'HTML5', icon: '🌐' },
     { name: 'CSS3', icon: '🎨' },
     { name: 'Tailwind', icon: '💨' },
@@ -29,8 +27,7 @@ const AboutSection = () => {
     { name: 'Git & GitHub', icon: '📂' },
     { name: 'VS Code', icon: '💻' },
     { name: 'Postman', icon: '📮' },
-    { name: 'Vercel', icon: '▲' },
-    { name: 'GSAP', icon: '🎭' }
+    { name: 'Vercel', icon: '▲' }
   ];
 
   useEffect(() => {
@@ -154,7 +151,7 @@ const AboutSection = () => {
                 About Me
               </h2>
               <p className="text-lg text-foreground-muted leading-relaxed mb-6">
-                I'm a passionate full-stack developer experienced in React, Next.js, Node.js, and sql/nosql databases. 
+                I'm a passionate full-stack developer experienced in React, Node.js, and sql/nosql databases. 
                 I create clean, scalable web applications with a focus on performance and user experience. 
                 Always eager to learn and collaborate, I thrive in team environments and enjoy turning challenges into effective solutions.
               </p>

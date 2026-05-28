@@ -13,21 +13,33 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "ElevateCV - Resume Analyzer",
-      description: "AI-powered resume analysis platform that provides comprehensive feedback on resume quality, ATS compatibility, and personalized improvement suggestions.",
-      tech: ["React", "TypeScript", "Supabase", "Tailwind CSS", "Vite", "PDF.js"],
+      title: "IOT Room Occupancy Tracker",
+      description: "A real-time smart room monitoring system that detects human presence using ESP32 and PIR motion sensors. Motion events are sent to a Node.js backend, stored in MongoDB, and visualized through an interactive React dashboard with live room status, motion logs, and occupancy trends.",
+      tech: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.io",
+    "ESP32",
+    "Arduino IDE",
+  ],
       image: "/Screenshot (510).png",
-      github: "https://github.com/yaashi2004/Elevate-CV",
-      live: "https://elevate-cv-resume-analyzer.vercel.app/"
+      github: "https://github.com/yaashi2004/iot-room-occupancy-tracker",
+      live: "https://github.com/yaashi2004/iot-room-occupancy-tracker"
     },
     {
       id: 2,
-      title: "Form Builder",
-      description: "Modern form builder application with dynamic form creation, shareable links, real-time data collection, and secure storage using Prisma.",
-      tech: ["Next.js", "Prisma", "NextAuth.js", "Tailwind CSS", "Vercel"],
+      title: "Cold Email Generator",
+      description:  "An AI-powered cold email generation platform that creates personalized outreach emails using resume and job description analysis. Integrated with Groq LLM and Gmail API for automated email drafting and secure email sending.",
+      tech: [  "Python",
+    "Streamlit",
+    "LangChain",
+    "Groq API",
+    "Gmail API",],
       image: "/Screenshot (511).png",
-      github: "https://github.com/yaashi2004/page-form",
-      live: "https://page-form-mqzz34bcz-yashika-sainis-projects.vercel.app"
+      github: "https://github.com/yaashi2004/Cold-email-Generator",
+      live: "https://github.com/yaashi2004/Cold-email-Generator"
     },
     {
       id: 3,
